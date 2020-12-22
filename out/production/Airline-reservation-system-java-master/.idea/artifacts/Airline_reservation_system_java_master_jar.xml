@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Airline-reservation-system-java-master:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Airline_reservation_system_java_master_jar</output-path>
+    <root id="archive" name="Airline-reservation-system-java-master.jar">
+      <element id="module-output" name="Airline-reservation-system-java-master" />
+    </root>
+  </artifact>
+</component>

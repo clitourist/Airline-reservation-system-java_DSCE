@@ -31,10 +31,10 @@ public class PrintTicket1 extends JFrame
 
 		JLabel LEmpty = new JLabel("---------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 		JLabel LDemo = new JLabel("<html><U><font color=\"#8FBC8F\">AirLine-Project Developed By</font></U></html>");
-		JLabel LFranklin=new JLabel("<html><I><font color=\"#8FBC8F\">R Franklin Bourgia Singh</font></I></html>");
-		JLabel LRavi=new JLabel("<html><I><font color=\"#8FBC8F\">V.R Ravi Sankar</font></I></html>");
-		JLabel LMayuran=new JLabel("<html><I><font color=\"#8FBC8F\">B Mayuran</font></I></html>");
-		JLabel LSathya=new JLabel("<html><I><font color=\"#8FBC8F\">Sathyaraj</font></I></html>");
+		JLabel LVMS=new JLabel("<html><I><font color=\"#8FBC8F\">Vaishnavi MS</font></I></html>");
+		JLabel LVKS=new JLabel("<html><I><font color=\"#8FBC8F\">Vedav K S</font></I></html>");
+		JLabel LVK=new JLabel("<html><I><font color=\"#8FBC8F\">Vedansh Khandelwal</font></I></html>");
+		JLabel LVD=new JLabel("<html><I><font color=\"#8FBC8F\">Veer Dutta</font></I></html>");
 
 
 		LTitle.setBounds(170,15,500,45);
@@ -58,10 +58,10 @@ public class PrintTicket1 extends JFrame
 		LEmpty.setBounds(3,445,1000,20);
 
 		LDemo.setBounds(280,465,300,20);
-		LFranklin.setBounds(285,485,300,20);
-		LRavi.setBounds(285,505,300,20);
-		LMayuran.setBounds(285,525,300,20);
-		LSathya.setBounds(285,545,300,20);
+		LVK.setBounds(285,485,300,20);
+		LVD.setBounds(285,505,300,20);
+		LVMS.setBounds(285,525,300,20);
+		LVKS.setBounds(285,545,300,20);
 
 
 		Panel2.add(LTitle);
@@ -83,11 +83,10 @@ public class PrintTicket1 extends JFrame
 		Panel2.add(LEmpty);
 		Panel2.add(LDemo);
 
-
-		/*Panel2.add("Vaishnavi M S");
-		Panel2.add("Vedansh Khandelwal");
-		Panel2.add("Vedav K S");
-		Panel2.add("Veer Dutta");*/
+		Panel2.add(LVK);
+		Panel2.add(LVMS);
+		Panel2.add(LVKS);
+		Panel2.add(LVD);
 
 
 		Panel2.setBackground(Color.white);
